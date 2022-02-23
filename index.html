@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--CSS Styles -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- Favicons -->
+    <link 
+      rel="apple-touch-icon" 
+      sizes="180x180" 
+      href="assets/icons/apple-touch-icon.png">
+
+    <link 
+      rel="icon" 
+      type="image/png" 
+      sizes="32x32" 
+      href="assets/icons/favicon-32x32.png">
+    
+    <link 
+      rel="icon" 
+      type="image/png" 
+      sizes="16x16" 
+      href="assets/icons/favicon-16x16.png">
+    
+    <link rel="manifest" href="assets/icons/site.webmanifest">
+    
+    <!-- Animate CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Roger Wienaah | Backend Developer</title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <h1>Roger Wienaah</h1>
+      <ul>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="burger-menu" id="burger-menu">
+        <ion-icon class="bars" name="menu-outline"></ion-icon>
+      </button>
+    </nav>
+
+    <!-- Profile Section -->
+    <section class="profile" id="about">
+      <img 
+        src="assets/images/profile_img.svg" 
+        alt="roger-wienaah"
+        loading = "lazy"
+        class="profile-img"
+      >
+      <div class="bio animate_animated animate_shakeX">
+        <h2 class="bio-title">About Me</h2>
+        <p class="bio-text">
+          Performance-driven and motivated Electrical Engineering Student and 
+          Django Developer with 9 months experience 
+          in participating in phases of software development. Proficient in html, css, 
+          javascript and Python. Possess a strong attention to detail, excellent time 
+          management skills, and ability to complete all projects within schedule and in a timely manner.
+        </p>
+
+      </div>
+    </section>
+
+    <!-- More about -->
+    <section class="more-about">
+      <h2>More About Me</h2>
+      <p>
+        I enjoy being challenged and engaging in projects that require me to work
+        outside my comfort and knowledge set. My love for innovations 
+        has made me partake in competitions which helped develop my problem-solving, 
+        teamwork, programming and project management skills.
+        I am a strong learner with a passion for solving 
+        societal problems with engineering and technology. 
+      </p>
+    </section>
+
+    <!-- Skills section -->
+    <section class="skills" id="skills">
+      <h2 class="skill-header">My Top Skills</h2>
+      
+      <div class="skills-wrapper">
+        <div class="first-set animate_animated animate_pulse">
+          <img 
+            src="assets/icons/icons8-html-5.svg" 
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          >
+          <img 
+            src="assets/icons/icons8-css3.svg" 
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          >
+          <img 
+            src="assets/icons/icons8-javascript.svg" 
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          >
+        </div>
+
+        <div class="second-set animate_animated animate_pulse">
+          <img 
+            src="assets/icons/icons8-bootstrap.svg" 
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          >
+          <img 
+            src="assets/icons/icons8-django.svg" 
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          >
+          <img 
+            src="assets/icons/icons8-git.svg" 
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          >
+        </div>
+        
+      </div>
+    </section>
+
+    <!-- Projects section -->
+    <section class="projects" id="projects">
+      <h1 class="projects-title">Some of my Recent Projects</h1>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <img 
+            src="assets/images/BackgroundChanger.png" 
+            alt="BackgroundChanger"
+            loading="lazy"
+            class="project-pic"  
+          >
+          <h3 class="project-title">Background Changer</h3>
+          <p class="project-details">
+            This site allows you to change its background color by clicking
+            on color buttons placed in the middle of the webpage. It was a fun project i created using
+            html, css and some javascript.
+          </p>
+          <a href="https://rogerwienaah.github.io/backgroundchanger" target="_blank" class="project-link">Check it out</a>
+        </div>
+
+        <div class="project-container project-card">
+          <img 
+            src="assets/images/SearchApp.png" 
+            alt="SearchApp"
+            loading="lazy"
+            class="project-pic"  
+          >
+          <h3 class="project-title">Google Search App</h3>
+          <p class="project-details">
+            I made a clone of the Google Search pages using html, css and js.
+          </p>
+          <a href="https://rogerwienaah.github.io/search-app" target="_blank" class="project-link">Check it out</a>
+        </div>
+
+        <div class="project-container project-card">
+          <img 
+            src="assets/images/Form.png" 
+            alt="Form"
+            loading="lazy"
+            class="project-pic"  
+          >
+          <h3 class="project-title">Form</h3>
+          <p class="project-details">
+            This is an application form i created for individuals to apply to become my friend.
+            It was created with only html and css. 
+          </p>
+          <a href="https://rogerwienaah.github.io/Friendship-form" target="_blank" class="project-link">Check it out</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact section -->
+    <section class="contact" id="contact">
+      <h2>Get In Touch With Me</h2>
+      <div class="contact-form-container">
+        <div class="contact-form">
+          <form action="https://formspree.io/f/xlezbvqn" method="POST">
+            <div class="form-control">
+              <label for="name">Name</label>
+              <input 
+                type="text"
+                id="name"
+                name="sender-name"
+                placeholder="Enter Your Name"
+                class="input-field"
+                required
+              >
+            </div>
+
+            <div class="form-control">
+              <label for="email">Email</label>
+              <input 
+                type="email"
+                id="email"
+                name="sender-email"
+                placeholder="Enter Your Email"
+                class="input-field"
+                required
+              >
+            </div>
+
+            <div class="form-control">
+              <label for="message">Message</label>
+              <textarea
+               name="message" 
+               id="message" 
+               cols="60" 
+               rows="10"
+               placeholder="Enter Your Message"
+               class="input-field"
+               required
+               >
+              </textarea>
+            </div>
+            <input
+             type="submit"
+             value="Submit"
+             id="submit-btn"
+             class="submit-btn">
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Social accounts - Fixed to the right -->
+    <div class="socials">
+      <a href="https://www.linkedin.com/in/roger-wienaah" target="_blank">
+        <img
+         src="assets/icons/icons8-linkedin-circled.gif"
+         alt="Linkedin"
+         loading="lazy"
+         class="socicon"
+         >
+      </a>
+
+      <a href="https://github.com/rogerwienaah" target="_blank">
+        <img
+         src="assets/icons/icons8-github.gif"
+         alt="Github"
+         loading="lazy"
+         class="socicon"
+         >
+      </a>      
+
+      <a href="https://twitter.com/RWienaah" target="_blank">
+        <img
+         src="assets/icons/icons8-twitter-circled.gif"
+         alt="Twitter"
+         loading="lazy"
+         class="socicon"
+         >
+      </a>
+    </div>
+
+    <!-- Footer section -->
+    <footer>
+      <p class="copy">&copy; Copyright 2022</p>
+      <p class="copy">
+        Built with &#x2661; by 
+        <a href="#" target="_blank"> Roger</a>
+      </p>
+    </footer>
+
+    <!--Scroll to top Icon-->
+    <i class="scroll-up" id="scroll-up">
+      <img
+       src="assets/icons/icons8-upward-arrow.gif" 
+       alt="scroll-up"
+       class="socicon up-arrow"
+       >
+    </i>
+
+    <!-- Website scripts -->
+    <script src="assets/js/app.js"></script>
+
+    <!-- Ion icons scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
